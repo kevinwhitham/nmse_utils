@@ -14,5 +14,9 @@ requirements:
   run:
     - python
 
+test:
+  imports:
+    - nmse_utils
+
 about:
-  home:
+  home: https://github.com/kevinwhitham/nms_utils
