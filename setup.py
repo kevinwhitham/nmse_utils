@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name = "nmse_utils",
-    version = "0.0.1",
+    version = "0.0.2",
     author = "Kevin Whitham",
     author_email = "kevin.whitham@gmail.com",
     description = "Routines to access NMSE 2D perovskite data files",
