@@ -12,7 +12,7 @@ setuptools.setup(
     long_description = long_description,
     long_description_content_type = "text/markdown",
     url = "https://github.com/kevinwhitham/nmse_utils",
-    install_requires=[],
+    install_requires=["pandas"],
     classifiers = [
             "Programming Language :: Python :: 3",
             "License :: OSI Approvied :: GNU General PUblic License v3 or later (GPLv3+)",
