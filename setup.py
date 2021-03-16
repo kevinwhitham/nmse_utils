@@ -4,21 +4,22 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name = "nmse_utils-kwhitham",
+    name = "nmse_utils",
     version = "0.0.1",
     author = "Kevin Whitham",
-    author_email = "kwhitham@lbl.gov",
+    author_email = "kevin.whitham@gmail.com",
     description = "Routines to access NMSE 2D perovskite data files",
     long_description = long_description,
     long_description_content_type = "text/markdown",
-    url = "https://github.com/kwhitham/nmse_utils",
+    url = "https://github.com/kevinwhitham/nmse_utils",
+    install_requires=[],
     classifiers = [
             "Programming Language :: Python :: 3",
             "License :: OSI Approvied :: GNU General PUblic License v3 or later (GPLv3+)",
             "Operating System :: OS Independent",
     ],
 
-    package_dir = {"","src"},
-    packages = setuptools.find_packages(where="src"),
-    python_requires = ">=3.8.5",
+    #package_dir = {"","src"},
+    packages = setuptools.find_packages(),
+    python_requires = ">=3",
 )
