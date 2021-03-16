@@ -1,1 +1,1 @@
-import .nmse_utils
+import nmse_utils
